@@ -25,7 +25,7 @@ if (!root) throw new Error('No root element')
 initColorMode()
 
 const agent = new BskyAgent({
-  service: 'https://public.api.bsky.app',
+  service: 'https://api.feed.3rdlife.ai',
 })
 
 render(<LandingPage />, root)
